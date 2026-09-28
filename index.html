@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucia Becatti</title>
+<meta name="description" content="Sito personale di Nome Cognome, dottoranda in [Disciplina] presso [Università].">
+
+<!-- Font da Google Fonts: puoi cambiarli scegliendone altri su fonts.google.com -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" type="text/css" href="./style.css">  
+
+</head>
+
+<body>
+
+<!-- =====================================================
+     MENU: i link puntano alle sezioni tramite il loro id.
+     Se elimini una sezione, elimina anche il suo link qui.
+     ===================================================== -->
+<header>
+  <div class="contenitore">
+    <nav>      
+      <a href="#home">Home</a>
+<!--       <a href="#chi-sono">Chi sono</a>
+      <a href="#ricerca">Ricerca</a> -->
+      <a href="#pubblicazioni">Pubblicazioni</a>
+      <a href="#formazione">Formazione</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+  </div>
+</header>
+
+<main class="contenitore">
+
+  <!-- PRESENTAZIONE -->
+  <section id="home">
+    <div class="intro" id="chi-sono">
+      <img src="photo.png" alt="Foto di Lucia Becatti">
+      <div>
+        <h1>Lucia Becatti</h1>
+        <p class="ruolo">Dottoranda in Informatica</p>
+        <p class="affiliazione">Dipartimento di Informatica "Giovanni Degli Antoni", Università degli Studi di Milano</p>
+      </div>
+    </div>
+  </section>
+
+<!--   <section>
+    <h2>Chi sono</h2>
+    <p>Sono dottoranda del XLII ciclo in informatica presso l'Università degli Studi
+      di Milano, sotto la supervisione del Prof. Alessandro Rizzi nel laboratorio MIPS.
+      Mi occupo di colorimetria, con un interesse particolare sul daltonismo.</p>
+    <p>Prima del dottorato ho studiato diagnostica dei beni culturali, sempre a Milano.</p>
+  </section> -->
+
+  <!-- RICERCA -->
+<!--   <section id="ricerca">
+    <h2>Ricerca</h2>
+    <p>Il mio progetto di dottorato, intitolato <em>"[Titolo della tesi]"</em>, indaga [domanda di ricerca in due frasi semplici,
+      comprensibili anche a chi non è del settore].</p> -->
+    <!-- Aggiungi o togli <li> a piacere -->
+<!--     <ul class="tag-lista">
+      <li>Colore</li>
+      <li>Daltonismo</li>
+      <li>Parola chiave 3</li>
+    </ul>
+  </section> -->
+
+  <!-- PUBBLICAZIONI: copia un blocco <li>...</li> per ogni lavoro -->
+  <section id="pubblicazioni">
+    <h2>Pubblicazioni e presentazioni</h2>
+    <ul class="pubblicazioni">
+      <li>
+        <a href="https://doi.org/10.1364/JOSAA.580640"><strong>On color differences in context</strong></a><br>
+        <span class="mіо-nome">Lucia Becatti</span>, Beatrice Sarti, Gabriele Simone, and Alessandro Rizzi (2026)<br>
+        <span class="rivista"><em>Journal of the Optical Society of America A</em>, Vol. 43, Issue 1, pp. 59-66</span><br>
+        
+      </li>
+      <li>
+        <a href="https://doi.org/10.1016/j.daach.2026.e00538"><strong>Subjectivity in color film restoration: A multi-lab comparison</strong></a><br>
+        <span class="mіо-nome">Lucia Becatti</span>, Beatrice Sarti, Enea Ahmedhodzic, and Alessandro Rizzi (2026)<br>
+        <span class="rivista"><em>Digital Applications in Archaeology and Cultural Heritage</em>, Vol. 41</span><br>
+      </li>
+      <li>
+        <a href="http://dx.doi.org/https://doi.org/10.25538/tct.v2i2.8819"><strong>On the need for spatial component in describing colour vision deficienc</strong></a><br>
+        Beatrice Sarti, Daniele Aurelio, Carlo Alberto Iocco, <span class="mіо-nome">Lucia Becatti</span>, Andrea Mazzoni, and Alessandro Rizzi (2026)<br>
+        <span class="rivista"><em>ColourTurn</em>, Vol. 2, Issue 2</span><br>
+      </li>
+      <li>
+        <a href="https://doi.org/10.23738/RCASB.017"><strong>Caratteristiche colorimetriche di alcune palette per daltonici disponibili online</strong></a><br>
+        Beatrice Sarti, Daniele Aurelio, Carlo Alberto Iocco, <span class="mіо-nome">Lucia Becatti</span>, and Alessandro Rizzi<br>
+        <span class="rivista">Presentazione alla <em>XX Conferenza del Colore</em>, Napoli, 2025</span>
+      </li>
+      <li>
+        <a href="https://doi.org/10.23738/RCASB.013"><strong>The role of subjectivity in color film restoration</strong></a><br>
+        <span class="mіо-nome">Lucia Becatti</span>, Enea Ahmedhodzic, Beatrice Sarti, and Alessandro Rizzi<br>
+        <span class="rivista">Presentazione al convegno <em>Colour Photography and Film: Sharing knowledge of analysis,
+          preservation, and Migration of Analogue and Digital Materials</em>, Amsterdam, 2024</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- FORMAZIONE: copia un blocco <div class="voce"> per ogni tappa -->
+  <section id="formazione">
+    <h2>Formazione</h2>
+    <div class="voce">
+      <div class="data">2026 – oggi</div>
+      <div><h3>Dottorato in Informatica</h3>
+        <p>Università degli Studi di Milano</p></div>
+    </div>
+    <div class="voce">
+      <div class="data">2022 – 2024</div>
+      <div><h3>Laurea Magistrale in Scienze per la Conservazione e la Diagnostica dei Beni Culturali</h3>
+        <p>Università degli Studi di Milano, voto 110/110L</p></div>
+    </div>
+    <div class="voce">
+      <div class="data">2018 – 2021</div>
+      <div><h3>Laurea Triennale in Studio e Conservazione dei Beni Culturali e dei Supporti dell’Informazione</h3>
+        <p>Università degli Studi di Milano</p></div>
+    </div>
+  </section>
+
+  <!-- CONTATTI -->
+  <section id="contatti">
+    <h2>Contatti</h2>
+    <p>Mail: <a href="mailto:lucia.becatti@unimi.it">lucia.becatti@unimi.it</a></p>
+    <p>Telefono: +39 392 126 34 55</p>
+    <p>
+      <!-- <a href="https://scholar.google.com/">Google Scholar</a> · -->
+      <a href="https://orcid.org/0009-0009-1295-311X">ORCID</a> ·
+      <a href="https://www.linkedin.com/in/lucia-becatti-it/">LinkedIn</a> ·
+      <a href="cv.pdf">Scarica il mio CV (PDF)</a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="contenitore">© 2026 Lucia Becatti</div>
+</footer>
+
+</body>
+</html>
