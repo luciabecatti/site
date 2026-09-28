@@ -10,7 +10,7 @@
   --linea: #d9dfdc;         /* colore delle linee di separazione */
   --link: #343434;
   --font-titoli: "Merriweather", Georgia, serif;
-  --font-testo: "Candara", sans-serif;
+  --font-testo: "Candara", Calibri, Segoe UI, Roboto, sans-serif;
   --larghezza: 780px;       /* larghezza della colonna di testo */
 }
 
