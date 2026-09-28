@@ -9,9 +9,9 @@
   --accento: #718fc4;       /* colore di link e titoli in evidenza */
   --linea: #d9dfdc;         /* colore delle linee di separazione */
   --link: #343434;
-  --font-titoli: "Fraunces", Georgia, serif;
-  --font-testo: "Public Sans", Arial, sans-serif;
-  --larghezza: 720px;       /* larghezza della colonna di testo */
+  --font-titoli: "Merriweather", Georgia, serif;
+  --font-testo: "Candara", sans-serif;
+  --larghezza: 780px;       /* larghezza della colonna di testo */
 }
 
 /* Tema scuro automatico (se il dispositivo lo usa). Puoi cancellare questo blocco se non lo vuoi */
@@ -29,7 +29,7 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0; background: var(--sfondo); color: var(--testo);
-  font-family: var(--font-testo); font-size: 1.05rem; line-height: 1.7;
+  font-family: var(--font-testo); font-size: 1.15rem; line-height: 1.7;
 }
 .contenitore { max-width: var(--larghezza); margin: 0 auto; padding: 0 1.25rem; }
 a { color: var(--link); text-underline-offset: 3px; }
@@ -55,7 +55,7 @@ section { padding: 2.25rem 0; border-top: 1px solid var(--linea); }
 
 /* Liste con date (formazione, esperienze) */
 .voce { display: grid; grid-template-columns: 110px 1fr; gap: .25rem 1.25rem; margin-bottom: 1.25rem; }
-.voce .data { color: var(--testo-secondario); font-size: .95rem; }
+.voce .data { color: var(--testo-secondario); font-size: 1rem; }
 .voce p { margin: .15rem 0 0; color: var(--testo-secondario); }
 @media (max-width: 560px) { .voce { grid-template-columns: 1fr; } }
 
